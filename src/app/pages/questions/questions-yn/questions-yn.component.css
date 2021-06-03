@@ -1,0 +1,29 @@
+label.circle-radio{
+    border:1px solid #af2128;
+    color: #af2128;
+    height:12vh;
+    width:12vh;
+    border-radius:6vh;
+    margin-top:5vh;
+    cursor:pointer;
+}
+
+label.circle-radio:hover,
+label.circle-radio:focus,
+label.circle-radio.active {
+    background-color:#af2128;
+    color:#ffffff;
+}
+
+label.circle-radio:first-child{
+    margin-right:3vh;
+}
+
+label.circle-radio:last-child{
+    margin-left:3vh;
+}
+
+label.circle-radio input{
+    display:none;
+}
+

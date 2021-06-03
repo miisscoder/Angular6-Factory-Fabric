@@ -1,0 +1,45 @@
+<div class="scroll-container"
+     malihu-scrollbar
+     [scrollbarOptions]="scrollbarOptions">
+    <header class="col-12 col-m-12 col-p-12">
+        <app-side-menu [hide]="hide" (onBack)="onBack($event)"></app-side-menu>
+        <span id="nav_span" class="w3-opennav w3-xxlarge" (click)="w3_open();">&#9776;</span>
+        <div id="primero_logo"></div>
+    </header>
+    <div class="progress-bar"><div class="progress-bar-content" style="width:12%;"></div></div>
+    <div id="out_container"
+         class="col-5 col-m-9 col-p-12 ">
+        <div class="questioin-text">Do you have a property in mind?</div>
+        <div class="radio" >
+            <input type="radio" [(ngModel)]="radio" name="deo" id="deo1" value="1" >
+            <label for="deo1" (click)="onRadio(1)" >0-3 months</label>
+            <input type="radio" [(ngModel)]="radio" name="deo" id="deo2" value="2" >
+            <label for="deo2" (click)="onRadio(2)" >3-6 months</label>
+            <input type="radio" [(ngModel)]="radio" name="deo" id="deo3" value="3" >
+            <label for="deo3" (click)="onRadio(3)" >6-9 months</label>
+            <input type="radio" [(ngModel)]="radio"  name="deo" id="deo4" value="4" >
+            <label for="deo4" (click)="onRadio(4)" >9+ months</label>
+        </div>
+        <div class="question-i" (click) ="popShow = true;"></div>
+    </div>
+</div>
+<footer class="flex  middle space-around">
+    <a href="javascript:;" [routerLink]="['/questions/address']"
+       class="footer-question-btn active">
+        Previous
+    </a>
+    <a href="javascript:;" [routerLink]="['/questions/text']"
+       class="footer-question-btn active">
+        Next
+    </a>
+</footer>
+<div class="black-screen flex center flexbottom" (click)="popShow = false;" *ngIf="popShow">
+    <div class="pop-box">
+        <div class="pop-header flex start middle"><i class="pop-icon"></i><span>Additional Information</span></div>
+        <div class="pop-body">
+         If you have never purchased a residential property
+        (whether to live in yourself or as an investment),you would answer YES to 
+        this question.
+        </div>
+    </div>
+</div>

@@ -1,0 +1,24 @@
+<div class="scroll-container"
+     malihu-scrollbar
+     [scrollbarOptions]="scrollbarOptions">
+    <header class="col-12 col-m-12 col-p-12">
+        <app-side-menu [hide]="hide" (onBack)="onBack($event)"></app-side-menu>
+        <span id="nav_span" class="w3-opennav w3-xxlarge" (click)="w3_open();">&#9776;</span>
+        <div id="primero_logo"></div>
+    </header>
+    <div class="progress-bar"><div class="progress-bar-content" style="width:80%;"></div></div>
+    <div id="out_container"
+         class="col-5 col-m-9 col-p-12 ">
+        <div class="questioin-text">Do you want to use your camera to collect your contact information from an indentification
+        card?</div>
+
+    </div>
+</div>
+<footer class="flex  middle space-around">
+    <a href="javascript:;" [routerLink]="['/questions/number/percentage']" class="footer-question-btn active">
+        Previous
+    </a>
+    <a href="javascript:;" [routerLink]="['/questions/multitext']" class="footer-question-btn active">
+        Next
+    </a>
+</footer>

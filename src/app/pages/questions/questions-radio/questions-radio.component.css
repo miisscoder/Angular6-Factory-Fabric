@@ -1,0 +1,32 @@
+.radio input {
+   display:none;
+}
+
+    .radio input + label {
+        display: inline-block;
+        position: relative;
+        border-radius: 50%;
+        border: 1px #aaa solid;
+        width: 14px;
+        height: 14px;
+    }
+
+    .radio input + label {
+        border-radius: 50%;
+        border-radius: 20px;
+        font-weight: 400;
+        margin: 20px auto;
+        width: 60%;
+        color: #9f2128;
+        font-size: 2.6vh;
+        height: 6.4vh;
+        line-height: 6.4vh;
+        display: block;
+        border: 1px solid #9f2128;
+    }
+
+
+    .radio input:checked + label {
+        background-color: #9f2128;
+        color:#ffffff;
+    }

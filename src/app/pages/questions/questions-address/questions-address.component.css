@@ -1,0 +1,13 @@
+input {
+    border-radius: 4px;
+    font-weight: 400;
+    margin: 40px auto;
+    width: 70%;
+    font-size: 2.6vh;
+    height: 6.4vh;
+    line-height: 6.4vh;
+    display: block;
+    border: 1px solid #999999;
+    text-align:left;
+    padding-left:10px;
+}

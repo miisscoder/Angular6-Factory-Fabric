@@ -1,0 +1,34 @@
+/* Produced by Heavy Water */
+
+/* ==========================================================================
+General settings
+========================================================================== */
+/* For mobile phones: */
+/*[class*="col-"] {
+    width: 100%;
+}*/
+/* ==========================================================================
+Body section
+========================================================================== */
+/*
+ ==========================================================================
+Footer section
+========================================================================== */
+
+
+footer .footer-home-p {
+    padding-top:10px;
+	text-align: center;
+	color: #505050;
+	font-size: 2vh;
+	font-style: normal;
+}
+
+footer #hw_logo_home {
+	background-image: url(../../../assets/css/images/hw.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 23vh;
+	height: 12vh;
+	margin: auto;
+}

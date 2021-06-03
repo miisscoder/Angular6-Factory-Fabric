@@ -1,0 +1,44 @@
+
+<nav id="nav_bar" class="w3-sidenav w3-animate-left" [ngClass]="{'hide': (hide === true)}"
+     style="z-index:5;">
+    <div id="nav_header">
+        <p>Loan Officer</p>
+        <a id="close_sign" href="javascript:void(0)" (click)="w3_close()" class="w3-closenav w3-large w3-circle">&times;</a>
+    </div>
+    <div id="nav_info" class="col-12 col-m-12 col-p-12">
+        <div id="nav_figure">
+            <img id="figure" src="assets/css/images/figure.jpg" class="w3-circle" alt="Norway" style="height:100px">
+        </div>
+        <div id="nav_profile" style="color: white;">
+            <div id="agent_name">David Eckert</div>
+            <div id="agent_code">NMLS #203656</div>
+        </div>
+        <div id="nav_contact" style="margin-top: 40px;">
+            <div id="profile_info">
+                <img src="assets/css/images/profile_info.png" class="w3-circle" alt="Norway" style="height:50px"><br />
+                <p>Profile Info</p>
+            </div>
+            <div id="phone_call">
+                <img src="assets/css/images/phone_call.png" class="w3-circle" alt="Norway" style="height:50px;"><br />
+                <p>Phone Call</p>
+            </div>
+            <div id="chat_now">
+                <img src="assets/css/images/chat_now.png" class="w3-circle" alt="Norway" style="height:50px;"><br />
+                <p>Chat Now</p>
+            </div>
+        </div>
+    </div>
+    <div id="nav_menu">
+        <div style="display:inline-block; text-align: left;">
+            <a href="home.html" (click)="w3_close()"><i class="fa fa-home fa-fw" id="nav_mesh" style="padding-right: 25px;"></i>Home</a>
+            <a href="javascript:;" (click)="w3_close()"><i class="fa fa-list fa-fw" id="nav_mesh" style="padding-right: 25px;"></i>Interview (9%)</a>
+            <a href="javascript:;" (click)="w3_close()"><i class="fa fa-user fa-fw" id="nav_mesh" style="padding-right: 25px;"></i>Login</a>
+            <a href="javascript:;" (click)="w3_close()"><img src="assets/css/images/Primero_Icon_grey.png" class="w3-circle" alt="Norway" style="position: relative; height:20px; left:-1%; padding-right: 5px;" />About Us</a>
+        </div>
+    </div>
+</nav>
+<div class="w3-overlay w3-animate-opacity"
+     [ngClass]="{'hide': (hide === true)}"
+     (click)="w3_close()" style="cursor:pointer">
+
+</div>

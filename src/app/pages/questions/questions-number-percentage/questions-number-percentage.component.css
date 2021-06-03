@@ -1,0 +1,35 @@
+input {
+    border-radius: 20px;
+    font-weight: 400;
+    width: 100%;
+    font-size: 2.6vh;
+    height: 6.4vh;
+    line-height: 6.4vh;
+    display: block;
+    border: 1px solid #999999;
+    text-align:center;
+    margin:0;
+}
+
+.percentage-group{
+    border-radius:3.2vh;
+    overflow:hidden;
+    position:relative;
+    margin: 40px auto;
+    width: 70%;
+}
+
+.percentage-group .fuhao{
+    background:url(../../../../assets/css/images/percentage4.png) no-repeat 0 0;
+    background-size:contain;
+    position:absolute;
+    top:0;
+    right:0;
+    height: 6.4vh;
+    width: 6.4vh;
+    text-align:center;
+}
+.ngx-slider {
+  width: 90vw;
+  margin: 0 5vw;
+}

@@ -1,0 +1,29 @@
+<div >
+    <header class="col-12 col-m-12 col-p-12">
+        <app-side-menu [hide]="hide" (onBack)="onBack($event)"></app-side-menu>
+        <span id="nav_span" class="w3-opennav w3-xxlarge" (click)="w3_open();">&#9776;</span>
+        <div id="primero_logo"></div>
+    </header>
+    <div class="progress-bar"><div class="progress-bar-content" style="width:40%;"></div></div>
+    <div id="out_container" class="col-5 col-m-9 col-p-12 ">
+        <div class="questioin-text">How much do you plan to spend on the home?</div>
+        <div class="money">
+            <div class="dollar"></div>
+            <input type="text" step="100" placeholder="enter the number"
+                   (value)="commaValue"
+                   [(ngModel)]="inputValue" (keyup)="numberComma()">
+        </div>
+        <ngx-slider  [(value)]="value" [options]="options" 
+                    (valueChange)="valueChangeSlider()"></ngx-slider>
+    </div>
+</div>
+<footer class="flex  middle space-around">
+    <a href="javascript:;" [routerLink]="['/questions/text']"
+       class="footer-question-btn active">
+        Previous
+    </a>
+    <a href="javascript:;" [routerLink]="['/questions/number/percentage']"
+       class="footer-question-btn active">
+        Next
+    </a>
+</footer>

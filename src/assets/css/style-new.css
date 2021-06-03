@@ -1,0 +1,563 @@
+
+.col-p-1 {
+    width: 8.33%;
+}
+
+.col-p-2 {
+    width: 16.66%;
+}
+
+.col-p-3 {
+    width: 25%;
+}
+
+.col-p-4 {
+    width: 33.33%;
+}
+
+.col-p-5 {
+    width: 41.66%;
+}
+
+.col-p-6 {
+    width: 50%;
+}
+
+.col-p-7 {
+    width: 58.33%;
+}
+
+.col-p-8 {
+    width: 66.66%;
+}
+
+.col-p-9 {
+    width: 75%;
+}
+
+.col-p-10 {
+    width: 83.33%;
+}
+
+.col-p-11 {
+    width: 91.66%;
+}
+
+.col-p-12 {
+    width: 100%;
+}
+
+@media only screen and (min-width:500px) {
+    .col-m-1 {
+        width: 8.33%;
+    }
+
+    .col-m-2 {
+        width: 16.66%;
+    }
+
+    .col-m-3 {
+        width: 25%;
+    }
+
+    .col-m-4 {
+        width: 33.33%;
+    }
+
+    .col-m-5 {
+        width: 41.66%;
+    }
+
+    .col-m-6 {
+        width: 50%;
+    }
+
+    .col-m-7 {
+        width: 58.33%;
+    }
+
+    .col-m-8 {
+        width: 66.66%;
+    }
+
+    .col-m-9 {
+        width: 75%;
+    }
+
+    .col-m-10 {
+        width: 83.33%;
+    }
+
+    .col-m-11 {
+        width: 91.66%;
+    }
+
+    .col-m-12 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:800px) {
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #d3d3d3;
+    background-image: url(images/background2.jpg);
+    background-size: 100%;
+    position: static;
+    width: 100%;
+    overflow-x: hidden;
+    text-align: center;
+    font: 12px arial,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.icon {
+    background-color: #9f2128;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 10;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 4%;
+    border: 1px solid #9f2128;
+}
+
+@media only screen and (max-width:499px) {
+    .icon {
+        width: 25%;
+    }
+
+    #b1 {
+        width: 29%;
+    }
+
+    #b2 {
+        width: 29%;
+    }
+}
+
+@media only screen and (min-width:500px) {
+    .icon {
+        width: 20%;
+    }
+
+    #b1 {
+        width: 18%;
+    }
+
+    #b2 {
+        width: 18%;
+    }
+}
+
+input[type=radio] {
+    visibility: hidden;
+}
+
+    input[type=radio] + label {
+        font-style: italic;
+    }
+
+    input[type=radio]:checked + label {
+        color: #9f2128;
+        font-style: normal;
+    }
+
+input[type=text], select {
+    width: 50%;
+    height: 8%;
+    padding: 8px 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.checked {
+    background-color: #9f2128 !important;
+    color: #fff !important;
+}
+
+header {
+    background-color: #fff;
+    height: 15vh;
+    margin: auto;
+    width: 100%;
+}
+
+#header_outer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15vh;
+}
+
+#primero_logo {
+    background-image: url(images/primero2.jpg);
+    background-size: 100% 100%;
+    width: 23vh;
+    height: 7vh;
+    display: inline-block;
+    position: relative;
+    top: 26%;
+    margin: 0 auto;
+}
+
+#nav_bar {
+    background-color: #1a1b1b;
+    color: #fff;
+    z-index: 1;
+}
+
+#nav_info {
+    height: 25%;
+    background-image: url(images/house.jpg);
+    background-size: 100%,100%;
+}
+
+#nav_figure {
+    position: absolute;
+    top: 8%;
+    left: 2%;
+    right: 2%;
+}
+
+#figure {
+    border-color: #800909;
+}
+
+#button3 {
+    position: absolute;
+    top: 23%;
+    bottom: auto;
+    left: 10%;
+    width: 80%;
+    font-size: 14px;
+    border-color: #800909;
+}
+
+#nav_span {
+    display: inline-block;
+    color: #800909;
+    position: absolute;
+    left: 4%;
+    top: 3vh;
+    border-radius: 4px;
+    z-index: 2;
+}
+
+#nav_menu a {
+    font-size: 18px;
+    font-family: "Times New Roman",Times,serif;
+    font-weight: normal;
+    padding: 8px;
+}
+
+#provider p {
+    font-size: 13px;
+    position: absolute;
+    bottom: 11%;
+    left: 33%;
+    text-align: center;
+}
+
+#hw_logo {
+    position: absolute;
+    top: 88%;
+    height: 28%;
+    left: 10%;
+    width: 80%;
+}
+
+header p {
+    display: inline-block;
+    font-size: 20px;
+    font-family: "Helvetica Neue";
+    color: #fff;
+    text-align: center;
+    z-index: 51;
+}
+
+header p2 {
+    font-size: 16px;
+    display: inline-block;
+    color: #800909;
+    position: absolute;
+    right: 4%;
+    top: 5vh;
+}
+
+div#container {
+    height: 85vh;
+    position: absolute;
+    top: 15vh;
+    background-color: rgba(255,255,255,0.5);
+    z-index: -1;
+}
+
+@media only screen and (max-width:499px) {
+    #container {
+        top: 100px;
+        left: 0;
+    }
+
+    #ques {
+        font-size: 18px;
+    }
+
+    .input_text {
+        font-size: 18px;
+    }
+
+    #radio {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width:500px) {
+    #container {
+        top: 100px;
+        left: 15%;
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width:740px) {
+    #ques {
+        font-size: 25px;
+    }
+
+    .input_text {
+        font-size: 25px;
+    }
+
+    #radio {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width:780px) {
+    #container {
+        top: 100px;
+        left: 30%;
+        width: 40%;
+    }
+}
+
+#bar_container {
+    position: absolute;
+    top: 0;
+    height: 3px;
+    border-radius: 5px;
+}
+
+#demo {
+    margin-top: -9px;
+    background-color: #9f2128;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+    display: none;
+}
+
+div#outer {
+    height: 80%;
+    position: absolute;
+    background-color: transparent;
+    top: 3px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+progress[value] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 250px;
+    height: 20px;
+}
+
+#ques {
+    margin: 10px;
+}
+
+.input_text {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 30px;
+}
+
+#input_number {
+    border-radius: 30px;
+    text-align: center;
+    background-color: #fff;
+    background-image: url(images/dollar2.png);
+    background-size: 19% 100%;
+    background-repeat: no-repeat;
+    border: 1px solid #b0b0b0;
+    font-size: 2vh;
+    padding: 1vh;
+    margin: 3vh auto;
+}
+
+#select {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#radio {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    overflow-y: scroll;
+    height: 50vh;
+    color: #666;
+}
+
+#yesNo {
+    border-radius: 50%;
+    width: 10vh;
+    height: 10vh;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #9f2128;
+    color: #9f2128;
+    line-height: 10vh;
+    list-style-type: none;
+    padding: 0;
+    margin: 3vh 3vh 3vh 3vh;
+    font-size: 2vh;
+}
+
+#multiple {
+    border-radius: 30px;
+    width: 60%;
+    height: auto;
+    text-align: center;
+    border: 1px solid #9f2128;
+    color: #9f2128;
+    list-style-type: none;
+    padding: 1vh;
+    margin: 3vh auto;
+    font-size: 2vh;
+}
+
+div#workflow {
+    text-align: center;
+}
+
+#button1 {
+    left: 6%;
+}
+
+#button2 {
+    right: 6%;
+}
+
+#b1 {
+    position: absolute;
+    left: 15%;
+    bottom: 2%;
+    font-size: 15px;
+    border-radius: 3px;
+    padding: 5px 5px;
+    z-index: 5;
+}
+
+#b2 {
+    position: absolute;
+    right: 15%;
+    bottom: 2%;
+    margin-right: 6px;
+    font-size: 15px;
+    border-radius: 3px;
+    padding: 5px 5px;
+    z-index: 5;
+}
+
+#id03 {
+    display: block;
+}
+
+#id03 {
+    height: 50vh;
+}
+
+footer p {
+    margin-right: 20px;
+    margin-top: 60px;
+    font-size: 15px;
+    font-style: oblique;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 12vh;
+    background-color: rgba(255,255,255,0.7);
+    z-index: -2;
+}
+
+#save_page {
+    height: 72%;
+    width: 60%;
+}
