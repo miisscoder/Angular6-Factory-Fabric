@@ -1,8 +1,8 @@
-# Project Title Here
-The app has a bunch of questions to ask to the user.
+# Angular6 Factory Fabric
 
 ### Description
-This is a single page app.
+
+The app has a bunch of questions to ask to the user. This is a single page app.
 
 ## Prerequisites
 1. Node 12.x
