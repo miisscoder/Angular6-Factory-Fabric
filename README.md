@@ -5,7 +5,7 @@
 The app has a bunch of questions to ask to the user. This is a single page app.
 
 ## Prerequisites
-1. Node 12.x
+1. Node 10.x
 2. NPM
 3. Angular 6
 4. SCSS
